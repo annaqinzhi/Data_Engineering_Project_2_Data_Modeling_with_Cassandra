@@ -1,6 +1,6 @@
 # Project: Project: Data Modeling with Cassandra
 
-###### by Anna Qin 2021-08-010
+###### by Anna Qin 2021-08-10
 
 ## Project Description
 
@@ -15,6 +15,8 @@ the ETL pipeline transfers data from a set of CSV files within a directory(local
 *event_data/2018-11-08-events.csv *   
 *event_data/2018-11-09-events.csv *   
 
+efter processing the files, will get a new data file csv which will be used for Apache Cassandra tables, as below:
+![even_datafile_new](images/image_event_datafile_new.jpg)
 
 ### Based the 3 queries to create 3 Tables
 
@@ -39,4 +41,3 @@ in this case, ETL cvs files into tables in Cassandra
 
 1. run ``Project_1B_Data_Modeling_Cassandra.ipynb`` in the jupyter notebook, to check if the the tables have been successfully created
 2. if any update or change, ``Project_1B_Data_Modeling_Cassandra.ipynb`` should be restart.
-
